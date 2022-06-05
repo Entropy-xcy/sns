@@ -1,0 +1,14 @@
+pytorch-lightning
+transformers
+orjson
+pymongo
+numpy
+sklearn
+tensorflow
+networkx
+networkx_query
+matplotlib
+prettytable
+pandas
+scipy
+adabound
