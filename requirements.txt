@@ -12,3 +12,4 @@ prettytable
 pandas
 scipy
 adabound
+torchsummary
