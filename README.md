@@ -15,14 +15,14 @@ In this work, we propose a deep-learning-based synthesis pre- dictor called SNS 
 * All python modules listed in `requirements.txt`.
 * Yosys (Tested Version: `Yosys 0.9+3752 (git sha1 c4645222, gcc 9.3.0-17ubuntu1~20.04 -fPIC -Os)`)
 * Anything that submodule `random-ff2ff-gen` requires. 
-* Anything that is required to make `cuda:0` device available in PyTorch environment.
+* Anything that is required to make `cuda:0` device available in PyTorch environment.(Tested environment: CUDA 11.3 + Nvidia V100 32G)
 
 ### Run
 ### Training Custom Model
 
 ### Generating Custom Dataset
 *TODO*
-Please watch our new publication at (Apex Lab)[https://apexlab-duke.github.io] for the published version of the dataset.
+Please watch our new publication at [Apex Lab](https://apexlab-duke.github.io) for the published version of the dataset.
 
 ## Citation
 ```
