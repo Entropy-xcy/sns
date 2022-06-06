@@ -1,6 +1,11 @@
-# SNS
+# SNS: SNS’s not a Synthesizer: A Deep-Learning-Based Synthesis
+## Abstract
+The number of transistors that can fit on one monolithic chip has reached billions to tens of billions in this decade thanks to Moore’s Law. With the advancement of every technology generation, the transistor counts per chip grow at a pace that brings about exponen- tial increase in design time, including the synthesis process used to perform design space explorations. Such a long delay in obtaining synthesis results hinders an efficient chip development process, sig- nificantly impacting time-to-market. In addition, these large-scale integrated circuits tend to have larger and higher-dimension design spaces to explore, making it prohibitively expensive to obtain physi- cal characteristics of all possible designs using traditional synthesis tools.
+
+In this work, we propose a deep-learning-based synthesis pre- dictor called SNS (SNS’s not a Synthesizer), that predicts the area, power, and timing physical characteristics of a broad range of de- signs at two to three orders of magnitude faster than the Synopsys Design Compiler while providing on average a 0.4998 RRSE (root relative square error). We further evaluate SNS via two representa- tive case studies, a general-purpose out-of-order CPU case study using RISC-V Boom open-source design and an accelerator case study using an in-house Chisel implementation of DianNao, to demonstrate the capabilities and validity of SNS.
 
 ## Code Structure
+
 
 ## Run
 ### Setup Dependency
@@ -14,6 +19,10 @@
 
 ### Run
 ### Training Custom Model
+
+### Generating Custom Dataset
+*TODO*
+Please watch our new publication at (Apex Lab)[https://apexlab-duke.github.io] for the published version of the dataset.
 
 ## Citation
 ```
