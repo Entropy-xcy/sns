@@ -22,7 +22,7 @@ In this work, we propose a deep-learning-based synthesis pre- dictor called SNS 
 
 ### Generating Custom Dataset
 *TODO*
-Please watch our new publication at (Apex Lab)[https://apexlab-duke.github.io] for the published version of the dataset.
+Please watch our new publication at [Apex Lab](https://apexlab-duke.github.io) for the published version of the dataset.
 
 ## Citation
 ```
