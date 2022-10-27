@@ -216,9 +216,15 @@ if __name__ == "__main__":
     power_mlp_path = os.path.join(args.models, "power_mlp.h5")
     area_mlp_path = os.path.join(args.models, "area_mlp.h5")
 
-    timing_model = keras.models.load_model(timing_mlp_path)
-    power_model = keras.models.load_model(power_mlp_path)
-    area_model = keras.models.load_model(area_mlp_path)
+    timing_model = keras.Sequential()
+    timing_model.add(keras.layers.Dense(54, input_dim=1, activation='relu'))
+    timing_model.add(keras.layers.Dense(1, activation='sigmoid'))
+    power_model = keras.Sequential()
+    power_model.add(keras.layers.Dense(54, input_dim=1, activation='relu'))
+    power_model.add(keras.layers.Dense(1, activation='sigmoid'))
+    area_model = keras.Sequential()
+    area_model.add(keras.layers.Dense(54, input_dim=1, activation='relu'))
+    area_model.add(keras.layers.Dense(1, activation='sigmoid'))
 
     start = time.time()
     timing_final = timing_model(np.array([g_props_vec])) * timing_raw

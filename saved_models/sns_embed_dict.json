@@ -1,0 +1,29 @@
+{"w2i": 
+    {
+        "-": 0, 
+        "mux": 1, 
+        "not": 2, 
+        "and": 3, 
+        "or": 4, 
+        "xor": 5, 
+        "sh4": 6, 
+        "sh8": 7, 
+        "sh16": 8, 
+        "sh32": 9, 
+        "sh64": 10, 
+        "reduce_and4": 11, 
+        "reduce_and8": 12, 
+        "reduce_and16": 13, 
+        "reduce_and32": 14, 
+        "reduce_and64": 15, 
+        "reduce_or4": 16, 
+        "reduce_or8": 17, 
+        "reduce_or16": 18, 
+        "reduce_or32": 19, 
+        "reduce_or64": 20, 
+        "reduce_xor4": 21, 
+        "reduce_xor8": 22, 
+        "reduce_xor16": 23, "reduce_xor32": 24, "reduce_xor64": 25, "eq8": 26, "eq16": 27, "eq32": 28, "eq64": 29, "lgt8": 30, "lgt16": 31, "lgt32": 32, "lgt64": 33, "add8": 34, "add16": 35, "add32": 36, "add64": 37, "mul8": 38, "mul16": 39, "mul32": 40, "mul64": 41, "div8": 42, "div16": 43, "div32": 44, "div64": 45, "mod8": 46, "mod16": 47, "mod32": 48, "mod64": 49}, 
+    "i2w": ["-", "mux", "not", "and", "or", "xor", "sh4", "sh8", "sh16", "sh32", "sh64", "reduce_and4", "reduce_and8", "reduce_and16", "reduce_and32", "reduce_and64", "reduce_or4", "reduce_or8", "reduce_or16", "reduce_or32", "reduce_or64", "reduce_xor4", "reduce_xor8", "reduce_xor16", "reduce_xor32", "reduce_xor64", "eq8", "eq16", "eq32", "eq64", "lgt8", "lgt16", "lgt32", "lgt64", "add8", "add16", "add32", "add64", "mul8", "mul16", "mul32", "mul64", "div8", "div16", "div32", "div64", "mod8", "mod16", "mod32", "mod64"
+    ]
+}
